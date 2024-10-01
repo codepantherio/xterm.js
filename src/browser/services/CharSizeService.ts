@@ -26,6 +26,7 @@ export class CharSizeService extends Disposable implements ICharSizeService {
     @IOptionsService private readonly _optionsService: IOptionsService
   ) {
     super();
+    console.log("CODEPANTHER");
     try {
       this._measureStrategy = this._register(new TextMetricsMeasureStrategy(this._optionsService));
     } catch {
