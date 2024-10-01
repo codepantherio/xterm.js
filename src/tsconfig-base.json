@@ -5,7 +5,7 @@
     "rootDir": ".",
 
     "sourceMap": true,
-    "removeComments": true,
+    "removeComments": false,
     "pretty": true,
 
     "incremental": true,
